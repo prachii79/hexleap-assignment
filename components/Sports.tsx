@@ -13,7 +13,7 @@ export default function Sport({lightMode}:{lightMode: boolean}) {
         <Ad lightMode={lightMode} />
       </div>
       <div className="flex justify-center mt-[50px] ">
-        <button className="rounded-sm  px-7 py-3 font-semibold bg-[#2C9CF0] text-sm">See More</button>
+        <button className="rounded-sm  px-7 py-3 font-semibold cursor-pointer bg-[#2C9CF0] text-sm">See More</button>
       </div>
     </div>
   )

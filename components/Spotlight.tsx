@@ -40,10 +40,10 @@ export default function Spotlight({lightMode}:{lightMode: boolean}) {
       })}
       </div>
       <div className="flex w-full px-32 bottom-75 justify-between absolute">
-        <div className="w-9 h-12 py-4 px-3 border-2 border-[#2C9CF0] " onClick={handlePrev}>
+        <div className="w-9 h-12 py-4 px-3 border-2 border-[#2C9CF0] cursor-pointer " onClick={handlePrev}>
           <img src="/images/back.png" alt="back"  />
         </div>
-        <div className="w-9 h-12 py-4 px-3 border-2 border-[#2C9CF0] " onClick={handleNext}>
+        <div className="w-9 h-12 py-4 px-3 border-2 border-[#2C9CF0] cursor-pointer " onClick={handleNext}>
           <img src="/images/front.png" alt="front" />
         </div>
       </div>
