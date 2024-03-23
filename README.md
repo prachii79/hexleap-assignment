@@ -1,40 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Hexleap Next.js Assignment: Spotlight Collection
 
-## Getting Started
+This Next.js project showcases a collection of items with an interactive and visually appealing slider component. Clean and maintainable React practices are incorporated throughout the code.
 
-First, run the development server:
+**Key Features:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dynamic Theme:** The user interface seamlessly switches between light and dark themes, enhancing readability and user experience.
+- **Interactive Slider:** Items are presented within a smooth-scrolling slider, allowing users to effortlessly navigate through the collection.
+- **Clean Code:** The project follows recommended React development practices, promoting code clarity and ease of future modifications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Benefits:**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **Engaging User Experience:** The dynamic theme and interactive slider provide users with a visually appealing and user-friendly way to explore the collection.
+- **Maintainable Codebase:** Following best practices ensures the code is well-structured, readable, and easier to modify as the project evolves.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**Getting Started:**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. **Prerequisites:** Ensure you have Node.js and npm (or yarn) installed on your system.
+2. **Project Setup:** Clone or download this project and navigate to the directory in your terminal.
+3. **Installation:** Run `npm install` (or `yarn install`) to install the required dependencies.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Customization:**
 
-## Learn More
+- The slider's appearance and behavior can be adjusted within the `Spotlight` component source code to suit your design preferences and project requirements.
+- The data displayed in the slider is assumed to be an array of objects. Adapt the component to work with your specific data structure.
 
-To learn more about Next.js, take a look at the following resources:
+**Technologies used:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js framework
+- React library
+- Tailwind CSS 
