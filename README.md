@@ -1,4 +1,4 @@
-## Hexleap Next.js Assignment: Spotlight Collection
+## Hexleap Next.js Assignment
 
 This Next.js project showcases a collection of items with an interactive and visually appealing slider component. Clean and maintainable React practices are incorporated throughout the code.
 
